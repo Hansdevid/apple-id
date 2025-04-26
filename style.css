@@ -4,49 +4,49 @@
   font-family: "Helvetica";
   font-style: normal;
   font-weight: normal;
-  src: local("Helvetica"), url("/Assets/Fonts/Helvetica.woff") format("woff");
+  src: local("Helvetica"), url("Assets/Fonts/Helvetica.woff") format("woff");
 }
 
 @font-face {
   font-family: "Helvetica Oblique";
   font-style: normal;
   font-weight: normal;
-  src: local("Helvetica Oblique"), url("/Assets/Fonts/Helvetica-Oblique.woff") format("woff");
+  src: local("Helvetica Oblique"), url("Assets/Fonts/Helvetica-Oblique.woff") format("woff");
 }
 
 @font-face {
   font-family: "Helvetica Compressed";
   font-style: normal;
   font-weight: normal;
-  src: local("Helvetica Compressed"), url("/Assets/Fonts/helvetica-compressed-5871d14b6903a.woff") format("woff");
+  src: local("Helvetica Compressed"), url("Assets/Fonts/helvetica-compressed-5871d14b6903a.woff") format("woff");
 }
 
 @font-face {
   font-family: "Helvetica Rounded Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Helvetica Rounded Bold"), url("/Assets/Fonts/helvetica-rounded-bold-5871d05ead8de.woff") format("woff");
+  src: local("Helvetica Rounded Bold"), url("Assets/Fonts/helvetica-rounded-bold-5871d05ead8de.woff") format("woff");
 }
 
 @font-face {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: normal;
-  src: local("Helvetica"), url("/Assets/Fonts/Helvetica-Bold.woff") format("woff");
+  src: local("Helvetica"), url("Assets/Fonts/Helvetica-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "Helvetica Bold Oblique";
   font-style: normal;
   font-weight: normal;
-  src: local("Helvetica Bold Oblique"), url("/Assets/Fonts/Helvetica-BoldOblique.woff") format("woff");
+  src: local("Helvetica Bold Oblique"), url("Assets/Fonts/Helvetica-BoldOblique.woff") format("woff");
 }
 
 @font-face {
   font-family: "Helvetica Light";
   font-style: normal;
   font-weight: normal;
-  src: local("Helvetica Light"), url("/Assets/Fonts/helvetica-light-587ebe5a59211.woff") format("woff");
+  src: local("Helvetica Light"), url("Assets/Fonts/helvetica-light-587ebe5a59211.woff") format("woff");
 }
 
 /* General Style */
@@ -173,17 +173,17 @@
 /* Section Product*/
 #iphone-15-black {
   margin-top: 46px;
-  background-image: url("../Assets/Image/hero_iphone.jpg");
+  background-image: url("Assets/Image/hero_iphone.jpg");
 }
 
 #iphone-15-white {
   margin-top: 20px;
-  background-image: url("../Assets/Image/hero_iphone_white.jpg");
+  background-image: url("Assets/Image/hero_iphone_white.jpg");
 }
 
 #macbook-air {
   margin-top: 20px;
-  background-image: url("../Assets/Image/macbook_air.jpg");
+  background-image: url("Assets/Image/macbook_air.jpg");
 }
 
 #iphone-15-white p {
@@ -274,26 +274,26 @@
 }
 
 .watch-nine {
-  background-image: url("../Assets/Image/apple_watch.jpg");
+  background-image: url("Assets/Image/apple_watch.jpg");
 }
 
 .watch-ultra {
-  background-image: url("../Assets/Image/apple_watch_white.jpg");
+  background-image: url("Assets/Image/apple_watch_white.jpg");
 }
 .ipad {
-  background-image: url("../Assets/Image/ipad.jpg");
+  background-image: url("Assets/Image/ipad.jpg");
 }
 
 .ipad-pro {
-  background-image: url("../Assets/Image/ipad_black.jpg");
+  background-image: url("Assets/Image/ipad_black.jpg");
 }
 
 .macbook {
-  background-image: url("../Assets/Image/macbook_white.jpg");
+  background-image: url("Assets/Image/macbook_white.jpg");
 }
 
 .airpods {
-  background-image: url("../Assets/Image/airpods.jpg");
+  background-image: url("Assets/Image/airpods.jpg");
 }
 
 .watch-nine h5 {
@@ -747,7 +747,7 @@ strong {
 
   /* Product */
   #iphone-15-black {
-    background-image: url("../Assets/Image/iphone-large-mobile.jpg");
+    background-image: url("Assets/Image/iphone-large-mobile.jpg");
   }
 
   .product {
@@ -777,7 +777,7 @@ strong {
   }
 
   #macbook-air {
-    background-image: url(../Assets/Image/macbook_air-mobile.jpg);
+    background-image: url(Assets/Image/macbook_air-mobile.jpg);
   }
 
   /* Grid */
@@ -801,5 +801,21 @@ strong {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+/* Mobile 2 */
+
+@media screen and (max-width: 400px) {
+  .grid-items-product h5 {
+    margin-left: 25px;
+  }
+
+  .product-item p {
+    margin-left: 15px;
+  }
+
+  .carousel-content p {
+    margin-left: 20px;
   }
 }
